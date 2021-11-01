@@ -8,7 +8,7 @@ import pandas as pd
 from sklearn.metrics.cluster import normalized_mutual_info_score, mutual_info_score
 from nibabel.testing import data_path
 warnings.filterwarnings('ignore')
-#python costfunc.py --filepath=E:\Projects\code\python\CostFunction\imagelist.txt
+#python ComputeCostFunction.py --filepath=E:\Projects\code\python\CostFunction\imagelist.txt
 
 
 Image_path = []#subjects' pathes named in the provided file
